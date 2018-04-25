@@ -6,31 +6,39 @@ class Coordinates
 public:
 	Coordinates(int x1 = 0, int x2 = 0)
 	{}
-	void setxy(int x, int y);
+	void setxy(int x1, int y1);
 	int getX();
 	int getY();
 private:
 	int x;
 	int y;
 };
-
-int setxy(int x, int y)
-{
-
-}
-
 int Coordinates::getX()
 {
 	return x;
 }
-
 int Coordinates::getY()
 {
 	return y;
 }
-
 void Coordinates::setxy(int x1, int y1)
+{
+	x = x1;
+	y = y1;
+}
 
+
+class Piece
+{
+public:
+private:
+
+};
+
+class Player
+{
+
+};
 class Square : public RectangleShape
 {
 public:
@@ -44,7 +52,6 @@ public:
 private:
 	char contains;
 };
-
 char Square::getCheckerContent()
 {
 	return contains;
