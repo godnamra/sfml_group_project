@@ -1,3 +1,8 @@
 ﻿  main.cpp
+c:\users\bryson\documents\github\sfml_group_project\chess game\chessgame\main.cpp(171): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\bryson\documents\github\sfml_group_project\chess game\chessgame\main.cpp(223): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\bryson\documents\github\sfml_group_project\chess game\chessgame\main.cpp(245): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\bryson\documents\github\sfml_group_project\chess game\chessgame\main.cpp(246): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\bryson\documents\github\sfml_group_project\chess game\chessgame\main.cpp(162): warning C4101: 'util': unreferenced local variable
   ChessGame.vcxproj -> C:\Users\Bryson\Documents\GitHub\sfml_group_project\Chess Game\Debug\ChessGame.exe
   ChessGame.vcxproj -> C:\Users\Bryson\Documents\GitHub\sfml_group_project\Chess Game\Debug\ChessGame.pdb (Partial PDB)
